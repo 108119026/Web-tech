@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online registeration</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body   align="center">
+    <img src="pic.png" width="350px" height="180px">
+    
+<form  name="form" method="get" >
+    <label for="fname">First name</label>&emsp; 
+    <input type="text" id="fname" > <br><br>
+    <label for="lname">Last name</label>&emsp; 
+    <input type="text" id="lname"><br><br>
+    <label for="Gender">Gender</label>&emsp;&emsp;&emsp;&emsp;
+    <input type="radio" name="Gender" value="male" id="male"> Male
+    <input type="radio" name="Gender" value="female" id="female"> Female <br><br>
+    <label for="mobile">Mobile</label>&emsp;&emsp;&emsp; 
+    <input type="text" id="mobile"> <br><br>
+    <label for="email">Email</label>&emsp;&emsp;&emsp;&emsp;
+    <input type="email" id="email"><br><br>
+    <label for="password">Password</label>&emsp;&emsp;
+    <input type="password" id="password"><br><br>
+    <label for="cpassword">Confirm Password</label>&emsp;
+    <input type="password" id="cpassword"><br><br>
+    
+    <label for="address">Address</label>&emsp;&emsp;&emsp;
+    <input type="text" id="address"><br><br>
+    <label for="state">State</label>&emsp;&emsp;&emsp;&emsp;
+    <input type="text" id="state"><br><br>
+    <label for="city">City</label>&emsp;&emsp;&emsp;&emsp;&emsp;
+    <input type="text" id="city"><br><br>
+    <label for="country">Country</label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+ <select id="country" > &emsp;&emsp;
+      
+    <option value="japan" selected>Japan</option>
+     <option value="south korea" selected>South korea</option>
+     <option value="china" selected>China</option>
+     <option value="iran" selected>Iran</option>
+     <option value="mexico" selected>Mexico</option>
+     <option value="nigeria" selected>Nigeria</option>
+     <option value="brazil" selected>Brazil</option>
+     <option value="united states" selected>United states</option>
+     <option value="bangladesh" selected>Bangladesh</option>
+     <option value="india" selected>India</option> </select> <br>
+
+<input type="submit" value="Submit" onClick="validation()">
+<input type="reset" value="Reset">  
+  
+</form>
+<script src="script.js"> 
+</script>
+
+</body>
+</html>
